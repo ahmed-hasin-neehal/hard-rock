@@ -19,7 +19,7 @@ function displayResult(songs) {
         searchResult.innerHTML += `<div class="single-result row my-3 p-3 d-flex justify-content-between align-items-center">
                                     <div class="col-md-9">
                                         <h3 id="title">${title}</h3>
-                                        <p class="author lead">Album by: <span>${album}</span></p>
+                                        <p class="author lead">Album: <span>${album}</span></p>
                                         <p>Artist: <span id="author">${artist}</span></p>
                                     </div>
                                     <div>
